@@ -6,3 +6,8 @@ Di seguito trovi un esempio completo di applicazione ToDo List in Flutter che:
 - Permette il riordino dei task usando un ReorderableListView e le Keys.
 
 Assicurati di avere tra le dipendenze nel tuo file pubspec.yaml il pacchetto shared_preferences.
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15  # o versione più recente
+
